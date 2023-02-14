@@ -7,7 +7,7 @@ This dataset has spurred loads of innovation in neural network design and implem
 
 The ten classification images included :
 
-![Example of classes in CIFAR-10](Images/cifar10)
+![Example of classes in CIFAR-10](Images/cifar10.png)
 
 The following are the main steps of this project:
 
