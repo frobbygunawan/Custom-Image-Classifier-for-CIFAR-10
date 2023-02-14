@@ -7,7 +7,7 @@ This dataset has spurred loads of innovation in neural network design and implem
 
 The ten classification images included :
 
-![Example of classes in CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+![Example of classes in CIFAR-10](Images/cifar10)
 
 The following are the main steps of this project:
 
@@ -23,6 +23,6 @@ The dataset of CIFAR-10 was included in the torchvision module, so the notebook 
 ## Results
 The test accuracy achieved 71.6% despite the use of simple convolutional layer with optimized hyperparameters (structure of convolutional layer and the number of hidden layers). 
 
-![Example of classes in CIFAR-10](losses.png)
+![Training losses](Images/losses.png)
 
 However, some overfitting might have occured since the validation loss was higher than the training loss. Further optimization of the layer architecture or transfer learning would be able to increase the accuracy higher.
