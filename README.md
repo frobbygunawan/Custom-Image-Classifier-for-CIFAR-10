@@ -22,5 +22,7 @@ The dataset of CIFAR-10 was included in the torchvision module, so the notebook 
 
 ## Results
 The test accuracy achieved 71.6% despite the use of simple convolutional layer with optimized hyperparameters (structure of convolutional layer and the number of hidden layers). 
+
 ![Example of classes in CIFAR-10](losses.png)
+
 However, some overfitting might have occured since the validation loss was higher than the training loss. Further optimization of the layer architecture or transfer learning would be able to increase the accuracy higher.
